@@ -22,7 +22,6 @@ def add_items(inventory, items):
         inventory[item] = inventory.get(item, 0) + 1
     return inventory
 
-
 def decrement_items(inventory, items):
     """
 
@@ -47,7 +46,6 @@ def remove_item(inventory, item):
         inventory.pop(item) 
     return inventory
     
-
 def list_inventory(inventory):
     """
 
